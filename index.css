@@ -1,0 +1,165 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.box {
+    height: 95vh;
+    width: 80%;
+    background: hsl(30, 38%, 92%);
+    margin: 0rem auto;
+    position: relative;
+}
+
+
+
+.container {
+    height: 20rem;
+    width: 28rem;
+    display: flex;
+    background: blue;
+    position: absolute;
+    margin: 8rem 20rem;
+    border-radius: 10px;
+}
+
+.box_img {
+    width: 50%;
+    height: 20rem;
+}
+
+.box_img img {
+    width: 100%;
+    height: 20rem;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+
+}
+
+.box_info {
+
+    width: 50%;
+    height: 20rem;
+    font-family: Fraunces sans-serif;
+    font-size: 10px;
+    color: black;
+    background: white;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 145x 10px;
+    justify-content: flex-start;
+
+}
+
+.box_info h4 {
+    color: hsl(228, 12%, 48%);
+    font-size: 11px;
+    padding: 10px 17px;
+    padding-top: 10px;
+    padding-right: 17px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+
+.box_info h1 {
+    font-size: 28px;
+    font-family: Fraunces sans-serif;
+    color: hsl(212, 21%, 14%);
+    line-height: 25px;
+    padding: 4px 20px;
+}
+
+.box_info p {
+    font-size: 12px;
+    color: hsl(228, 12%, 48%);
+    padding: 10px 20px;
+    line-height: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.num {
+    display: flex;
+    padding: 0 8px;
+}
+
+.box_info h2 {
+    padding: 4px 15px;
+    color: hsl(158, 36%, 37%);
+    font-size: 25px;
+
+}
+
+.box_info h6 {
+    font-size: 10px;
+    color: hsl(228, 12%, 48%);
+    padding: 12px 0;
+    text-decoration: line-through;
+
+}
+
+.btn {
+    display: flex;
+    background: hsl(158, 36%, 37%);
+    color: white;
+    margin: 12px auto;
+    border-radius: 7px;
+    font-size: 6px;
+    width: 165px;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+    gap: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn:hover {
+    background: hsl(212, 21%, 14%);
+}
+
+@media screen and (max-width:600px) {
+
+    .box{
+        width: 100%;
+        height: 90vh;
+    }
+    .container{
+        margin: 2rem 0;
+        display: flex;
+       flex-direction: column;
+        width: 100%;
+        height: 80vh;
+    }
+    .box_img {
+        width: 100%;
+        height: 50%;
+        /* background-image: url(./images/image-product-mobile.jpg); */
+    }
+    /* .box_img img {
+        width: 100%;
+        height: 20rem;
+        border-top-left-radius: 6px;
+        border-bottom-left-radius: 6px;
+     */
+     .box_info {
+
+        width: 100%;
+        height: 100%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+
+       
+    }
+    /* .box_info h4 {
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    } */
+    
+}
